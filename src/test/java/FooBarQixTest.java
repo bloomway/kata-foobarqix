@@ -138,6 +138,4 @@ public class FooBarQixTest {
         String result = FooBarQix.convert(53);
         assertThat(result).isEqualTo(concatenate(BAR, FOO));
     }
-
-
 }
